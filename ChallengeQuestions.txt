@@ -1,0 +1,61 @@
+1. Accessibility:
+Accessibility refers to the practice of designing and developing digital products (websites, applications, software) in a way that allows people with disabilities to access, understand, and interact with them effectively. The goal is to ensure that everyone, regardless of their abilities, can perceive, navigate, and interact with digital content.
+
+To achieve accessibility, developers and designers need to follow guidelines and standards such as the Web Content Accessibility Guidelines (WCAG). Some key aspects of achieving accessibility include:
+
+a. Providing alternative text for images, so screen readers can convey the information to users with visual impairments.
+b. Using semantic HTML to provide meaningful structure to the content, making it easier for screen readers to interpret.
+c. Ensuring proper keyboard navigation so that users who cannot use a mouse can still navigate through the interface.
+d. Implementing proper color contrast to make the content readable for individuals with color vision deficiencies.
+e. Avoiding the use of elements that may cause seizures or other adverse reactions for people with photosensitive epilepsy.
+
+2. Session Storage, Local Storage, and Cookies:
+These are all client-side storage mechanisms in web browsers, but they have different purposes and characteristics:
+
+a. Session Storage: Session storage is a mechanism to store key-value pairs that are accessible during a browsing session. The data stored in session storage is available only within the same tab or window of the browser. When the session ends (the tab is closed), the data is cleared.
+
+b. Local Storage: Local storage is also used to store key-value pairs, but the data persists even after the browser is closed and reopened. The data stored in local storage is accessible across different tabs and windows of the same browser on the same domain.
+
+c. Cookies: Cookies are small pieces of data stored on the user's browser by websites. They are primarily used to track user information for various purposes like session management, user preferences, and tracking. Unlike local storage and session storage, cookies have an expiration date, and they can be set to persist for a specific duration or until the user deletes them.
+
+3. JavaScript Event Loop and Async/Await:
+The JavaScript event loop is a fundamental mechanism that enables asynchronous behavior in JavaScript, allowing non-blocking operations like network requests and timers. It ensures that JavaScript remains responsive even while executing time-consuming tasks.
+
+The event loop works by continuously checking for tasks in the callback queue and executing them one by one. Each task represents a callback function that needs to be executed when an event or operation is completed.
+
+Promises and async/await are higher-level abstractions built on top of the event loop to handle asynchronous code more cleanly. Promises represent a value that may not be available yet but will be resolved at some point, either successfully or with an error. Async/await is a syntax that simplifies working with promises, making asynchronous code look more like synchronous code, which is easier to read and maintain.
+
+4. Preventing Too Many API Calls from Hooks:
+If you are experiencing too many API calls being made from your React hooks (like useState, useEffect, etc.), you can implement a technique called "debouncing" or "throttling." These techniques control the rate at which a function (which calls the API) is executed.
+
+Debouncing ensures that a function is not executed until a certain amount of time has passed since the last time it was invoked. Throttling, on the other hand, allows the function to execute at a fixed rate, for example, once every 500 milliseconds.
+
+By incorporating either debouncing or throttling in your hook, you can limit the frequency of API calls, preventing excessive calls and improving performance.
+
+5. Managing Global State:
+Global state management is essential in larger applications where multiple components need to share and synchronize data. There are various ways to manage global state in a React application:
+
+a. React Context API: This built-in feature allows you to create a global state that can be accessed and modified by multiple components in the component tree.
+
+b. State Management Libraries (e.g., Redux): Redux is a popular state management library that provides a single source of truth (a centralized store) for the entire application. Components can connect to the store and access or modify the state using actions and reducers.
+
+c. React's useReducer Hook: It is a simpler alternative to Redux for managing global state. It allows you to manage state and actions in a more predictable way, making it easier to test and maintain.
+
+The choice of global state management method depends on the complexity of the application and personal/team preferences.
+
+6. Progressive Rendering:
+Progressive rendering is a web development technique that focuses on optimizing the loading and rendering of web pages to provide a better user experience, particularly for slower network connections and less powerful devices.
+
+The idea behind progressive rendering is to display the content to the user as quickly as possible, even if the entire page or resource hasn't finished loading. This way, users can start interacting with the page sooner, which reduces perceived load times and improves user engagement.
+
+Some common techniques used in progressive rendering include:
+
+a. Lazy Loading: Delaying the loading of non-essential content (e.g., images, videos) until the user scrolls or interacts with that part of the page.
+
+b. Prioritizing Critical Resources: Ensuring that essential resources (e.g., CSS, JavaScript) are loaded and rendered first, so the page layout and basic interactivity are available quickly.
+
+c. Responsive Images: Serving different sizes of images based on the user's device and viewport size, improving loading times for mobile devices.
+
+d. Code Splitting: Breaking down JavaScript bundles into smaller chunks and loading them on demand, reducing the initial load time.
+
+Progressive rendering aims to provide a better user experience for all users, regardless of their device capabilities or network conditions.

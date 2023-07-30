@@ -1,0 +1,16 @@
+{
+    "title": "Rick and Morty",
+    "gender": {
+        "male": "Male",
+        "female": "Female",
+        "unknown": "Unknown"
+    },
+    "species": {
+        "human": "Human",
+        "alien": "Alien",
+        "unknown": "Unknown"
+    },
+    "cast": "Cast",
+    "english_label": "English",
+    "spanish_label": "Spanish"
+}

@@ -1,0 +1,31 @@
+**Running Microfrontend Solution - Futurama and Rick and Morty Apps**
+
+To run the microfrontend solution consisting of Futurama and Rick and Morty apps, follow these steps:
+
+**1. Futurama App:**
+
+Step 1: Navigate to the 'futurama' directory.
+
+Step 2: Install the required dependencies.
+
+Step 3: Start the Futurama app.
+
+**2. Rick and Morty App:**
+
+Step 1: Navigate to the 'rickandmorty' directory.
+
+Step 2: Install the required dependencies.
+
+Step 3: Start the Rick and Morty app.
+
+**3. Host Solution:**
+
+Step 1: Navigate to the 'host' directory.
+
+Step 2: Install the required dependencies.
+
+Step 3: Start the host solution, which will load and integrate the Futurama and Rick and Morty apps.
+
+**Important Note:** 
+- Please ensure that you have Node.js and npm (Node Package Manager) installed on your system before running the above commands.
+- Make sure that the specified ports for each app and the host solution are not conflicting with any other services running on your machine.

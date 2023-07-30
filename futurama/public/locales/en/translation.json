@@ -1,0 +1,22 @@
+{
+    "title": "Futurama",
+    "gender": {
+        "male": "Male",
+        "female": "Female",
+        "unknown": "Unknown"
+    },
+    "species": {
+        "human": "Human",
+        "alien": "Alien",
+        "unknown": "Unknown",
+        "mutant": "Mutant",
+        "robot": "Robot",
+        "martian": "Martian",
+        "decapodian": "Decapodian",
+        "omicronian": "Omicronian",
+        "amphibiosans": "Amphibiosans"
+    },
+    "cast": "Cast",
+    "english_label": "English",
+    "spanish_label": "Spanish"
+}
